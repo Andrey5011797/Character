@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Персонаж</title>
+</head>
+<body>
+    <div class="pause">
+        <img id="pause" src="./img/Pause.png" alt="Пауза" width="20" height="20">
+    </div>
+    <div class="nameCharacter">
+        <span id="characterName">Анатолий</span>
+    </div>
+    <div class="character">
+        <img class="photo" src="./img/character.jpg" alt="Персонаж">
+    </div>
+    <div class="container">
+        <div class="states">
+            <div class="state" id="water">
+                <div class="name">Вода</div>
+                <span class="count"></span>
+            </div>
+            <div class="state" id="food">
+                <div class="name">Еда</div>
+                <span class="count"></span>
+            </div>
+            <div class="state" id="energy">
+                <div class="name">Энергия</div>
+                <span class="count"></span>
+            </div>
+            <div class="log-container">
+                <ul id="eventLog"></ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="actions">
+        <button class="action" id="drink">Выпить</button>
+        <button class="action" id="eat">Поесть</button>
+        <button class="action" id="rest">Отдохнуть</button>
+    </div>
+    
+    <div class="alert">Перезагрузите страницу, чтобы начать сначала</div>
+    <script src="main.js"></script>
+</body>
+</html>
